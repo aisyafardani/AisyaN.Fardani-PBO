@@ -15,5 +15,9 @@ public class RumahSakitDemo {
 
         Pasien pasien2 = new Pasien("997744", "Yenny Anggraeni");
         System.out.println(pasien2.getInfo());
+
+        Pasien pasien3 = new Pasien("123456", "Aisya Noor Fardani");
+        pasien3.tambahKonsultasi(LocalDate.of(2026, 9, 29), bagus, desi);
+        System.out.println(pasien3.getInfo());
     }
 }

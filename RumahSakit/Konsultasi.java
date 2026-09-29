@@ -32,7 +32,7 @@ public class Konsultasi {
 
     public String getInfo() {
         String info = "";
-        info += "\tTanggall : " +tanggal;
+        info += "\tTanggal : " +tanggal;
         info += ", Dokter : " +dokter.getInfo();
         info += ", Perawat : " +perawat.getInfo();
         info += "\n";
