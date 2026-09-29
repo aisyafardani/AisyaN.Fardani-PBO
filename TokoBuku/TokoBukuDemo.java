@@ -13,6 +13,9 @@ public class TokoBukuDemo {
         Buku buku2 = new Buku("B-102", "Sistem Informasi Bisnis Modern", 120000);
         Buku buku3 = new Buku("B-103", "Basis Data Lanjut", 65000);
 
+        //Mengganti harga buku 1 menggunakan setter
+        buku1.setHarga(10000);
+
         // 3. Menambahkan transaksi ke buku1
         buku1.tambahTransaksi("TRX-001", LocalDate.of(2026, 3, 10), p1, "PEG-12");
         buku1.tambahTransaksi("TRX-002", LocalDate.of(2026, 3, 15), p2, "PEG-15");
