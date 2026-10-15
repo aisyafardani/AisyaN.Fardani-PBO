@@ -1,4 +1,4 @@
-package Praktikum06;
+package Praktikum07;
 
 public class Dosen extends Pegawai{
     public String nidn;
