@@ -1,19 +1,19 @@
 package Praktikum07;
 
-public class Dosen extends Pegawai{
+public class Dosen extends Pegawai {
     public String nidn;
 
     // public Dosen() {
-    //     System.out.println("Ini constructor class Dosen");
+    // System.out.println("Ini constructor class Dosen");
     // }
 
     public Dosen(String nip, String nama, double gaji, String nidn) {
-        this.nidn = nidn;
         super(nip, nama, gaji);
+        this.nidn = nidn;
     }
 
     public String getInfo() {
-        return "NIDN        : " +this.nidn +"\n";
+        return "NIDN        : " + this.nidn + "\n";
     }
 
     // overriding
