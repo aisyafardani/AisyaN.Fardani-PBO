@@ -15,7 +15,6 @@ public class MakananBasah extends Produk {
         this.jamProduksi = jamProduksi;
     }
 
-    @Override
     public void tampilInformasi() {
         super.tampilInformasi();
         System.out.println("Jam Produksi: " + this.jamProduksi);

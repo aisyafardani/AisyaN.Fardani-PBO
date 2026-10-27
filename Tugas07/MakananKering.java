@@ -15,7 +15,6 @@ public class MakananKering extends Produk {
         this.tanggalProduksi = tanggalProduksi;
     }
 
-    @Override
     public void tampilInformasi() {
         super.tampilInformasi();
         System.out.println("Tgl Produksi: " + this.tanggalProduksi);
