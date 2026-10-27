@@ -10,21 +10,23 @@ public class Ular extends Hewan {
 
     @Override
     public void bergerak(){
+        System.out.println("=== CARA BERGERAK ===");
         System.out.println("Mengerutkan otot dari segala sisi hingga membentuk lengkungan");
         System.out.println("Menemukan titik penahan seperti batu atau pohon");
-        System.out.println("Menggunakan sisik untuk mendorong tubuh ke depan");
+        System.out.println("Menggunakan sisik untuk mendorong tubuh ke depan \n");
     }
 
     @Override
     public void bernapas() {
+        System.out.println("=== CARA BERNAPAS ===");
         System.out.println("Otot tulang rusuk kontraksi, udara masuk lewat hidung");
         System.out.println("Trakea mengirim udara ke paru-paru");
-        System.out.println("Otot tulang rusuk relaksasi, udara dikeluarkan lewat hidung");
+        System.out.println("Otot tulang rusuk relaksasi, udara dikeluarkan lewat hidung \n");
     }
 
     @Override
     public void cetakInfo() {
         super.cetakInfo();
-        System.out.println("Berbisa      : " + (this.isBerbisa ? "Ya" : "Tidak"));
+        System.out.println("Berbisa      : " + (this.isBerbisa ? "Ya" : "Tidak") +"\n");
     }
 }

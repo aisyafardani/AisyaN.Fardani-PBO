@@ -18,6 +18,5 @@ public abstract class Hewan {
         System.out.println("Berat       : " +this.berat);
         System.out.println("Makanan     : " +this.makanan);
         System.out.println("Habitat     : " +this.habitat);
-        System.out.println(" ");
     }
 }
