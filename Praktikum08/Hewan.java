@@ -20,7 +20,7 @@ public class Hewan {
     }
 
     public void cetakInfo() {
-        System.out.println("Berat   : " +this.berat);
+        System.out.println("Berat       : " +this.berat);
         System.out.println("Makanan     : " +this.makanan);
         System.out.println("Habitat     : " +this.habitat);
     }
