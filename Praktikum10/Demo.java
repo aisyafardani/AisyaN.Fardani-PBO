@@ -11,8 +11,7 @@ public class Demo {
         
         System.out.println(pegawai1.nip);
         System.out.println(pegawai1.nama);
-        System.out.println(pegawai1.nidn);
-        pegawai1.mengajar();
+        pegawai1.displayInfo();
         
         Dosen dosen2 = new Dosen("19700105", "Muhammad, S.T, M.T", "197001");
         TenagaKependidikan tendik1 = new TenagaKependidikan("19750301", "Aida, A.Md.", "Tenaga Administrasi");
