@@ -24,7 +24,7 @@ public class Dosen extends Pegawai implements Comparable<Dosen> {
         System.out.println("Melakukan evaluasi");
     }
 
-    public int compareTo(Dosen otherDosen) {
-        return this.nama.compareTo(otherDosen.nama);
+    public int compareTo(Dosen other) {
+        return this.nidn.compareTo(other.nidn);
     }
 }
