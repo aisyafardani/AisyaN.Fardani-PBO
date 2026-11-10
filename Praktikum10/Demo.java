@@ -12,6 +12,8 @@ public class Demo {
         System.out.println(pegawai1.nip);
         System.out.println(pegawai1.nama);
         pegawai1.displayInfo();
+
+        TenagaKependidikan test = (TenagaKependidikan) pegawai1;
         
         Dosen dosen2 = new Dosen("19700105", "Muhammad, S.T, M.T", "197001");
         TenagaKependidikan tendik1 = new TenagaKependidikan("19750301", "Aida, A.Md.", "Tenaga Administrasi");
@@ -24,6 +26,6 @@ public class Demo {
         daftarPegawai.add(tendik1);
         daftarPegawai.add(tendik2);
 
-        System.out.println("Jumlah Pegawai: " + daftarPegawai.size());
+        // System.out.println("Jumlah Pegawai: " + daftarPegawai.size());
     }
 }
