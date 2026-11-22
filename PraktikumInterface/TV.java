@@ -5,11 +5,11 @@ public class TV extends AlatElektronik implements Audible {
     public int volume;
 
     public void naikkanVolume() {
-
+        volume += 1;
     }
 
     public void turunkanVolume() {
-
+        volume -= 1;
     }
 
     public void getInfo() {
