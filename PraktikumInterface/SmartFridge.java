@@ -5,10 +5,10 @@ public class SmartFridge extends Kulkas implements Audible {
     public String ukuranLayar; 
 
     public void naikkanVolume() {
-
+        volume += 1;
     }
 
     public void turunkanVolume() {
-        
+        volume -= 1;
     }
 }
